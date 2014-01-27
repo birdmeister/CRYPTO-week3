@@ -1,8 +1,5 @@
-// Using https://code.google.com/p/crypto-js/ as Javascript crypto library
-// see also https://npmjs.org/package/crypto-js
-
 var blockSize = 1024,
-    path = "Input/File27.mp4",
+    path = "Dir/File.mp4", // Full path to input file here
     fs = require("fs"), fd,
     crypto = require("crypto"), hash,
     shasum,
